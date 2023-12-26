@@ -15,12 +15,18 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
+/* Global/common styles */
+@import 'base/global';
+
 /* Vendor */
 
 /* Components */
+
+/* Sections */
+@import 'sections/hero';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
 
 /* Demo Page styles */
-@import 'demo';
+@import 'landing';

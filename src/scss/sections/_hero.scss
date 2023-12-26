@@ -1,0 +1,36 @@
+.hero {
+    background-image: url('../images/design/hero-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+
+    min-height: 100vh;
+}
+
+.top-bar { /* top-bar ==> & */
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    height: 104px;
+
+    &__logo { /* .top-bar__logo */
+        color: $text-color;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+    }
+    &__nav-list {
+        display: flex;
+        gap: 21px;
+    }
+
+    &__nav-item {
+        a {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+        }
+    }
+
+}
